@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #212121;
+}
+
+.label-name,
+.label-number {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.input {
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.label-text {
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.btn-add {
+    padding: 5px;
+    width: 152px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(91, 164, 237);
+    cursor: pointer;
+}
+.btn-add:hover {
+    background-color: rgb(40, 215, 54);
+}
+.btn-add:focus {
+    border: 1px solid rgb(91, 164, 237);
+}

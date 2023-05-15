@@ -1,0 +1,16 @@
+.filter {
+    outline: none;
+    display: inline-grid;
+    margin-bottom: 10px;
+}
+
+.filter-text {
+    font-weight: 500;
+    /* margin-bottom: 5px; */
+}
+
+.input {
+    border-block-color: inherit;
+    outline: none;
+    text-align: left;
+}

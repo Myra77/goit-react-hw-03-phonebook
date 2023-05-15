@@ -1,0 +1,15 @@
+.contactList {
+    display: flex;
+    margin-top:10px;
+    padding:0;
+    flex-direction: column;
+    gap: 10px;
+}
+    
+.contactListItem {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

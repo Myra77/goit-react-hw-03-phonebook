@@ -1,0 +1,23 @@
+.contact-wrapper {
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-size: 500;
+}
+
+.delete-btn {
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+};
+.delete-btn:hover, 
+.delete-btn:focus {
+    background-color: tomato;
+    border-color: skyblue;
+    border-radius: 8px;
+    color: white;
+}
